@@ -1,0 +1,28 @@
+.about {
+  background-color: $primary;
+
+  &_text {
+    font-size: 10vw;
+    font-family: "Righteous";
+    display: flex;
+    align-items: center;
+    .line {
+      width: 300px;
+      border: 2px solid $black-1;
+      border-radius: 4px;
+    }
+  }
+
+  &_description {
+    label {
+      font-size: 24px;
+      font-weight: bold;
+      color: $black-1;
+    }
+    p {
+      font-size: 20px;
+      line-height: 32px;
+      color: $black-2;
+    }
+  }
+}
