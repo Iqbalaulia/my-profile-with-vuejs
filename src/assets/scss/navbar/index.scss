@@ -1,0 +1,19 @@
+.nav-my-profile {
+  background-color: $primary;
+  padding: 1.5rem 1rem !important;
+
+  .navbar-collapse {
+    justify-content: center !important;
+
+    .navbar-nav {
+      gap: 100px !important;
+
+      .nav-item {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $black-1;
+      }
+    }
+  }
+}
