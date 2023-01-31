@@ -5,7 +5,7 @@
       <Navbar />
 
       <!-- Content -->
-      <div>
+      <div class="container-fluid">
         <slot />
       </div>
     </div>

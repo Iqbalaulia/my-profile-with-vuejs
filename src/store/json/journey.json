@@ -1,0 +1,147 @@
+{
+  "journey": [
+    {
+      "images_company": "https://media.licdn.com/dms/image/C560BAQHuvyGthmyzWw/company-logo_100_100/0/1644397636354?e=1683158400&v=beta&t=ivelaN4BV9ApxTYXOF3Hx1V4RiFKawcUdA76fj7bp_0",
+      "company": "PT. Sinergi Informatika Semen Indonesia",
+      "position": "Frontend Web Developer",
+      "start_date": "2021-08-01",
+      "end_date": "",
+      "status": "Kontrak",
+      "description": "SISI merupakan perusahaan yang bergerak dibidang Teknologi Informasi yang senantiasa memberikan solusi-solusi ICT yang handal, mutakhir, dan berorientasi untuk memenuhi harapan pelanggan.",
+      "job_desc": [
+        "Membuat design UI / UX dari wireframe yang disediakan",
+        "Melakukan proses slicing UI",
+        "Melakukan pemasangan API guna diintegrasikan pada tampilan yang sudah di kerjakan",
+        "Melakukan fixing bug yang terjadi pada website",
+        "Teknologi yang digunakan Frontend adalah Vue JS"
+      ],
+      "skill": [
+        "Vue.js",
+        "Javascript",
+        "Ant Design",
+        "Vuex",
+        "SCSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "images_company": "https://media.licdn.com/dms/image/C560BAQF2DI_qvHoJuQ/company-logo_100_100/0/1617437665350?e=1683158400&v=beta&t=OnDmE1m6VvWmXJqy5nSY-piE_Bl39wWZDIrpAShh9Hk",
+      "company": "PT. Mitra Semen Asia (Gocement)",
+      "position": "Frontend Web Developer",
+      "start_date": "2022-08-01",
+      "end_date": "2022-12-01",
+      "status": "Kontrak",
+      "description": "GoCement adalah B2B marketplace bahan bangunan terdepan di Indonesia. Bergerak dibidang penyedia bahan bangunan yang digunakan untuk berbagai kebutuhan bangunan. Serta mewujudkan toko bahan bangunan menjadi go digital.",
+      "job_desc": [
+        "Melakukan proses slicing UI",
+        "Melakukan pemasangan API guna diintegrasikan pada tampilan yang sudah di kerjakan",
+        "Melakukan fixing bug yang terjadi pada website",
+        "Teknologi yang digunakan Frontend adalah Vue JS dan Nuxt Js",
+        "Koordinasi dengan tim Backend terkait kebutuhan data yang diinginkan"
+      ],
+      "skill": ["Vue.js", "Javascript", "Nuxt.js", "Vuex", "SCSS", "Bootstrap"]
+    },
+    {
+      "images_company": "https://media.licdn.com/dms/image/C560BAQF_oDRwJO4oCw/company-logo_100_100/0/1658077264406?e=1683158400&v=beta&t=iFo_iPsYN6KgkibJRh9O5wsjFN9JwCKVxd4bdUPI5AE",
+      "company": "PT. Onklas Prima Indonesia (Onklas)",
+      "position": "Frontend Web Developer",
+      "start_date": "2020-10-01",
+      "end_date": "2022-08-01",
+      "status": "Purnawaktu",
+      "description": "Onklas adalah Sistem Belajar, Sosial Media & Ujian Sekolah #1 Indonesia. Onklas mendukung pertumbuhan pendidikan dan menciptakan kemudahan dalam belajar dan telah banyak dipercaya oleh berbagai sekolah di Seluruh Indonesia. Guru tetap bisa produktif dan kreatif selama mengajar dengan sistem pembelajaran daring, tugas materi dan ujian bisa dilakukan melalui aplikasi Onklas dan web Onklas.",
+      "job_desc": [
+        "Melakukan proses slicing UI",
+        "Melakukan pemasangan API guna diintegrasikan pada tampilan yang sudah di kerjakan",
+        "Melakukan fixing bug yang terjadi pada website",
+        "Teknologi yang digunakan Frontend adalah Vue JS",
+        "Koordinasi dengan tim Backend terkait kebutuhan data yang diinginkan"
+      ],
+      "skill": [
+        "Vue.js",
+        "Javascript",
+        "Element UI",
+        "Vuex",
+        "SCSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "images_company": "https://media.licdn.com/dms/image/C510BAQH01BHmmvtMyw/company-logo_100_100/0/1541663329330?e=1683158400&v=beta&t=eQllEMwHl1oDyfWWZVdQvI8-MS0o56YkpCWWZiGIdls",
+      "company": "KlikChat",
+      "position": "Frontend Web Developer",
+      "start_date": "2020-08-01",
+      "end_date": "2021-01-01",
+      "status": "Purnawaktu",
+      "description": "KlikChat adalah aplikasi sejenis telegram yang berfokus pada orang yang berbisnis. Tidak hanya itu, KlikChat juga bergerak dibidang e-commerce",
+      "job_desc": [
+        "Melakukan proses slicing UI",
+        "Melakukan pemasangan API guna diintegrasikan pada tampilan yang sudah di kerjakan",
+        "Melakukan fixing bug yang terjadi pada website",
+        "Teknologi yang digunakan Frontend adalah Vue JS dan Meteor JS",
+        "Migrasi teknologi dari Meteor JS ke Vue JS",
+        "Koordinasi dengan tim Backend terkait kebutuhan data yang diinginkan"
+      ],
+      "skill": [
+        "Vue.js",
+        "Javascript",
+        "Meteor JS",
+        "Vuex",
+        "SCSS",
+        "Bootstrap",
+        "Web Socket"
+      ]
+    },
+    {
+      "images_company": "https://media.licdn.com/dms/image/C560BAQFUms5661xZmQ/company-logo_100_100/0/1604561468554?e=1683158400&v=beta&t=0vGJxlcBnyOGcGQsN80npwMjenkQdVqBfgxqdgPwtCI",
+      "company": "Peduly",
+      "position": "Fullstack Web Developer",
+      "start_date": "2019-07-01",
+      "end_date": "2020-02-01",
+      "status": "Purnawaktu",
+      "description": "Peduly merupakan startup yang bergerak dibidang kemanusiaan. Peduly menjadi pihak ketiga dalam proses penggalangan dana, mempertemukan antara pembuat campaign atau pihak yang membutuhkan dana denga pihak penyalur dana. Berbasis crowdfunding, berlokasi di Surabaya, Jawa Timur.",
+      "job_desc": [
+        "Mengatur database yang ada pada website",
+        "Pembuatan API yang akan digunakan",
+        "Melakukan proses slicing UI dari tim design",
+        "Melakukan responsive web design",
+        "Pemasangan API pada website",
+        "Bug fixing yang terjadi pada backend dan frontend",
+        "Teknologi yang digunakan Frontend adalah Laravel Blade",
+        "Teknologi yang digunakan Database adalah MySQL"
+      ],
+      "skill": ["PHP", "Laravel", "MySQL", "CSS", "Bootstrap"]
+    },
+    {
+      "images_company": "",
+      "company": "SmartAircraft Aero",
+      "position": "Frontend Web Developer",
+      "start_date": "2019-08-01",
+      "end_date": "2019-11-01",
+      "status": "Kontrak",
+      "description": "SmartAircraft Aero merupakan perusahan yang bergerak dibidang aviasi. Berlokasi di daerah Bandara Juanda. Perusahaan ini menyediakan web internal khusus untuk segala kebutuhan aviasi pada suatu maskapai.",
+      "job_desc": [
+        "Melakukan bug fixing yang terjadi pada sisi frontend",
+        "Melakukan slicing UI dari tim design",
+        "Teknologi yang digunakan Frontend adalah Laravel Blade"
+      ],
+      "skill": ["Laravel", "Javascript", "Material Design", "CSS", "Bootstrap"]
+    },
+    {
+      "images_company": "https://media.licdn.com/dms/image/C560BAQHuvyGthmyzWw/company-logo_100_100/0/1644397636354?e=1683158400&v=beta&t=ivelaN4BV9ApxTYXOF3Hx1V4RiFKawcUdA76fj7bp_0",
+      "company": "PT. Sinergi Informatika Semen Indonesia",
+      "position": "Internship Frontend Web Developer",
+      "start_date": "2019-02-01",
+      "end_date": "2019-03-01",
+      "status": "Internship",
+      "description": "SISI merupakan perusahaan yang bergerak dibidang Teknologi Informasi yang senantiasa memberikan solusi-solusi ICT yang handal, mutakhir, dan berorientasi untuk memenuhi harapan pelanggan. Project yang saya kerjakan yaitu pembuatan ulang web internal perusahaan PT Semen Indonesia (Persero) Tbk yaitu bernama SMILE. SMILE digunakan oleh karyawan internal PT Semen Indonesia (Persero) Tbk sebagai wadah informasi mengenai PT Semen Indonesia (Persero) ataupun anak cabangnya.",
+      "job_desc": [
+        "Slicing UI yang diberikan dari tim design ke bentuk code react JS",
+        "Melakukan riset mengenai PWA yang akan dipasang pada web internal tersebut",
+        "Pemasangan API pada web tersebut",
+        "Teknologi yang digunakan Frontend adalah React JS",
+        "Melakukan redisign dan mengubah teknologi Laravel ke React JS sebagai Frontend"
+      ],
+      "skill": ["React.js", "Javascript", "PWA", "Axios", "SCSS", "Bootstrap"]
+    }
+  ]
+}
