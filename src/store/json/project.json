@@ -1,0 +1,34 @@
+{
+  "project": {
+    "artect": {
+      "landing_page": [
+        {
+          "images": "",
+          "title_project": "",
+          "company": ""
+        },
+        {
+          "images": "",
+          "title_project": "",
+          "company": ""
+        },
+        {
+          "images": "",
+          "title_project": "",
+          "company": ""
+        },
+        {
+          "images": "",
+          "title_project": "",
+          "company": ""
+        },
+        {
+          "images": "",
+          "title_project": "",
+          "company": ""
+        }
+      ],
+      "cms": []
+    }
+  }
+}

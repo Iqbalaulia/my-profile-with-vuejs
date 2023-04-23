@@ -1,9 +1,9 @@
 <template>
   <div class="me">
-    <div class="row images-profile">
+    <div class="row">
       <div
         v-for="(me, indexMe) in dataMe.profile_me"
-        class="p-0 col-md-3"
+        class="col-md-3 p-0 images-profile"
         :key="indexMe"
       >
         <img

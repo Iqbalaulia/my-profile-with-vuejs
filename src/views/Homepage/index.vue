@@ -2,6 +2,7 @@
   <Layout>
     <SectionAbout />
     <SectionJourney />
+    <SectionWorking />
     <SectionMe />
   </Layout>
 </template>
@@ -13,6 +14,7 @@ export default {
     SectionAbout: () => import("@/components/About"),
     SectionJourney: () => import("@/components/Journey"),
     SectionMe: () => import("@/components/Me"),
+    SectionWorking: () => import("@/components/Working"),
   },
 };
 </script>

@@ -1,10 +1,13 @@
-html,
-body {
-  min-height: 100%;
-}
 @import "variables.scss";
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import "../navbar/index.scss";
 @import "../about/index.scss";
 @import "../journey/index.scss";
 @import "../me/index.scss";
+@import "../working/index.scss";
+
+html,
+body {
+  min-height: 100% !important;
+  background-color: $primary !important;
+}
