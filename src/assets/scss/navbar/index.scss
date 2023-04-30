@@ -1,19 +1,33 @@
+/** @format */
+
 .nav-my-profile {
-  background-color: $primary;
-  padding: 1.5rem 1rem !important;
+	background-color: $white;
+	padding: 1.5rem 1rem !important;
 
-  .navbar-collapse {
-    justify-content: center !important;
+	.navbar-collapse {
+		justify-content: end !important;
 
-    .navbar-nav {
-      gap: 100px !important;
+		.navbar-nav {
+			gap: 10px !important;
+			align-items: center;
+			.nav-item {
+				font-size: 16px;
+				text-transform: capitalize;
+				color: $black-1 !important;
+			}
 
-      .nav-item {
-        font-size: 20px;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: $black-1;
-      }
-    }
-  }
+			.nav-item-active {
+				a {
+					font-weight: bold;
+					color: $black-1 !important;
+				}
+			}
+		}
+	}
+
+	.logo-custom {
+		img {
+			width: 80px;
+		}
+	}
 }

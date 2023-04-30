@@ -1,13 +1,13 @@
+/** @format */
+
 @import "variables.scss";
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import "heading.scss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "../navbar/index.scss";
-@import "../about/index.scss";
-@import "../journey/index.scss";
-@import "../me/index.scss";
-@import "../working/index.scss";
 
 html,
 body {
-  min-height: 100% !important;
-  background-color: $primary !important;
+	min-height: 100% !important;
+	background-color: $white !important;
+	font-family: "Inter", sans-serif !important;
 }
