@@ -1,22 +1,24 @@
-<template>
-  <transition>
-    <div>
-      <!-- Navbar -->
-      <Navbar />
+<!-- @format -->
 
-      <!-- Content -->
-      <div class="container-fluid">
-        <slot />
-      </div>
-    </div>
-  </transition>
+<template>
+	<transition>
+		<div>
+			<!-- Navbar -->
+			<Navbar />
+
+			<!-- Content -->
+			<div>
+				<slot />
+			</div>
+		</div>
+	</transition>
 </template>
 
 <script>
 export default {
-  name: "Layout",
-  components: {
-    Navbar: () => import("./Navbar"),
-  },
+	name: "Layout",
+	components: {
+		Navbar: () => import("./Navbar"),
+	},
 };
 </script>

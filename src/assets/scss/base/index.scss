@@ -1,13 +1,18 @@
 /** @format */
+html,
+body {
+	min-height: 100% !important;
+	background: rgb(84, 189, 149);
+	background: linear-gradient(
+		90deg,
+		rgba(84, 189, 149, 0.1516981792717087) 1%,
+		rgba(255, 255, 255, 1) 100%
+	);
+	font-family: "Inter", sans-serif !important;
+}
 
 @import "variables.scss";
 @import "heading.scss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import "../navbar/index.scss";
-
-html,
-body {
-	min-height: 100% !important;
-	background-color: $white !important;
-	font-family: "Inter", sans-serif !important;
-}
+@import "../home/describe/describe";
