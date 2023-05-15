@@ -1,0 +1,150 @@
+/** @format */
+
+.experience {
+	padding-top: 60px;
+
+	.title {
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		gap: 30px;
+		.devider {
+			border: 1px solid $primary;
+			width: 100px;
+		}
+		label {
+			margin-bottom: 0 !important;
+			font-size: 14px;
+			font-weight: 400;
+			color: $gray-900;
+			text-transform: uppercase;
+		}
+	}
+
+	.proffetion {
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		h4 {
+			color: $primary;
+		}
+	}
+
+	$timeline-color: $gray-100;
+	$timeline-transition: all 0.25s ease-in;
+	$timeline-item-card-bg: $white;
+	$timeline-item-font-color: $white;
+	$timeline-item-card: false;
+	$timeline-item-card-radius: 4px;
+
+	%clearfix {
+		&::after,
+		&::before {
+			clear: both;
+			content: "";
+			display: block;
+			width: 100%;
+		}
+	}
+
+	// Timeline
+	.timeline {
+		margin: 30px auto;
+		padding: 0 10px;
+		position: relative;
+		transition: $timeline-transition;
+		width: 100%;
+
+		&::before {
+			background: $timeline-color;
+			content: "";
+			height: 100%;
+			left: 50%;
+			position: absolute;
+			top: 0;
+			width: 3px;
+		}
+
+		&::after {
+			clear: both;
+			content: "";
+			display: table;
+			width: 100%;
+		}
+
+		a {
+			color: $timeline-item-font-color;
+			font-weight: bold;
+			transition: $timeline-transition;
+
+			&:hover {
+				box-shadow: 0 1px 0px 0px $timeline-item-font-color;
+				transition: $timeline-transition;
+			}
+		}
+
+		.timeline-item {
+			margin-bottom: 50px;
+			position: relative;
+			@extend %clearfix;
+
+			.timeline-icon {
+				background: $primary;
+				border-radius: 50%;
+				height: 50px;
+				left: 50%;
+				margin-left: -23px;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				width: 50px;
+
+				img,
+				svg {
+					left: 14px;
+					position: relative;
+					top: 11px;
+				}
+
+				svg {
+					top: 14px;
+				}
+			}
+
+			.timeline-content {
+				border-radius: 10px;
+				background-color: $white;
+				box-shadow: 8px 6px 7px 0px rgba(158, 158, 158, 0.75);
+				-webkit-box-shadow: 8px 6px 20px 0px rgba(158, 158, 158, 0.75);
+				-moz-box-shadow: 8px 6px 7px 0px rgba(158, 158, 158, 0.75);
+				padding: 20px;
+				text-align: right;
+				transition: $timeline-transition;
+				width: 45%;
+
+				p {
+					font-size: 16px;
+					line-height: 1.4;
+					margin-bottom: 0;
+				}
+
+				.timeline-content-date {
+					font-size: 16px;
+					font-weight: bold;
+					margin-bottom: 0;
+				}
+
+				.timeline-content-month {
+					font-size: rem-calc(14);
+					text-transform: uppercase;
+					font-weight: 400;
+				}
+
+				&.right {
+					float: right;
+					text-align: left;
+				}
+			}
+		}
+	}
+}

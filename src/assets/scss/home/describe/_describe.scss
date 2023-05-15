@@ -1,6 +1,7 @@
 /** @format */
 
 .home-describe {
+	padding-bottom: 60px;
 	&__slogan {
 		h1 {
 			line-height: 60px;
@@ -41,7 +42,6 @@
 	}
 
 	&__images {
-		border: 1px solid $gray-100;
 		padding: 40px;
 		border-radius: 4px;
 		height: 450px;

@@ -5,6 +5,7 @@
 		<div>
 			<SectionDescribe />
 			<Me />
+			<Experiences />
 		</div>
 	</Layout>
 </template>
@@ -15,6 +16,7 @@ export default {
 		Layout: () => import("@/views/Layout"),
 		SectionDescribe: () => import("@/components/home/describe"),
 		Me: () => import("@/components/home/me"),
+		Experiences: () => import("@/components/home/experiences"),
 		// SectionJourney: () => import("@/components/Journey"),
 		// SectionMe: () => import("@/components/Me"),
 		// SectionWorking: () => import("@/components/Working"),
