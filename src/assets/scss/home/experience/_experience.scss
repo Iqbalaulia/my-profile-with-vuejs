@@ -122,10 +122,34 @@
 				transition: $timeline-transition;
 				width: 45%;
 
+				.timeline-title {
+					display: flex;
+					align-items: center;
+					justify-content: end;
+					gap: 20px;
+
+					img {
+						width: 80px;
+						border-radius: 4px;
+					}
+				}
+
 				p {
-					font-size: 16px;
+					margin-top: 10px;
+					font-size: 14px;
 					line-height: 1.4;
 					margin-bottom: 0;
+				}
+
+				.timeline-content-company {
+					font-size: 14px;
+					margin-bottom: 14px;
+				}
+
+				.timeline-content-position {
+					margin-bottom: 0 !important;
+					color: $primary;
+					font-weight: bold;
 				}
 
 				.timeline-content-date {
