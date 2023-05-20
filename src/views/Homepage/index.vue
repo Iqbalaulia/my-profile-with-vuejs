@@ -6,6 +6,7 @@
 			<SectionDescribe />
 			<Me />
 			<Experiences />
+			<Recomendation />
 		</div>
 	</Layout>
 </template>
@@ -17,6 +18,7 @@ export default {
 		SectionDescribe: () => import("@/components/home/describe"),
 		Me: () => import("@/components/home/me"),
 		Experiences: () => import("@/components/home/experiences"),
+		Recomendation: () => import("@/components/home/recomendation"),
 		// SectionJourney: () => import("@/components/Journey"),
 		// SectionMe: () => import("@/components/Me"),
 		// SectionWorking: () => import("@/components/Working"),

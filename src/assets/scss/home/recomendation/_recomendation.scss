@@ -1,0 +1,66 @@
+/** @format */
+
+.recomendation {
+	background-color: $primary;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	&__title {
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+		.title {
+			display: flex;
+			align-items: center;
+			gap: 30px;
+			.devider {
+				border: 1px solid $white;
+				width: 100px;
+			}
+			label {
+				margin-bottom: 0 !important;
+				font-size: 18px;
+				font-weight: bold;
+				color: $white;
+			}
+		}
+	}
+
+	&__content {
+		.content_slider {
+			display: flex !important;
+			align-items: center;
+			gap: 80px;
+			.profile_images {
+				img {
+					width: 400px;
+					object-fit: fill;
+					border: 1px solid $primary;
+					padding: 20px;
+					background-color: $white;
+					border-radius: 4px;
+				}
+			}
+
+			.information {
+				label {
+					font-size: 20px;
+					margin-bottom: 0;
+					span {
+						font-size: 28px !important;
+						color: $white;
+						font-weight: bold;
+					}
+				}
+				.devider {
+					border: 1px solid $white;
+					width: 150px;
+				}
+				p {
+					font-size: 16px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
