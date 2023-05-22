@@ -13,6 +13,10 @@
 <script>
 export default {
 	name: "homepage",
+	metaInfo: {
+		title: "Iqbalaulia",
+		titleTemplate: "%s | Frontend Engineer",
+	},
 	components: {
 		Layout: () => import("@/views/Layout"),
 		SectionDescribe: () => import("@/components/home/describe"),
