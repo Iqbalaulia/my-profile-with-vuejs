@@ -2,8 +2,16 @@
 
 .btn-primary-profile {
 	background-color: $primary !important;
+	border: 1px solid $white !important;
 	color: $white !important;
 	font-size: 16px !important;
-	font-weight: 400 !important;
-  border-radius: 20px !important;
+	font-weight: 600 !important;
+	border-radius: 4px !important;
+	padding: 5px 20px 5px 20px !important;
+
+	&:hover {
+		background-color: $white !important;
+		border: 1px solid $white !important;
+		color: $black-1 !important;
+	}
 }

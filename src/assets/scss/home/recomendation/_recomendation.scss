@@ -34,11 +34,15 @@
 			.profile_images {
 				img {
 					width: 400px;
-					object-fit: fill;
+					object-fit: cover;
 					border: 1px solid $primary;
 					padding: 20px;
 					background-color: $white;
 					border-radius: 4px;
+
+					box-shadow: 8px 6px 27px 0px rgba(158, 158, 158, 0.75);
+					-webkit-box-shadow: 8px 6px 27px 0px rgba(158, 158, 158, 0.75);
+					-moz-box-shadow: 8px 6px 27px 0px rgba(158, 158, 158, 0.75);
 				}
 			}
 
@@ -50,6 +54,22 @@
 						font-size: 28px !important;
 						color: $white;
 						font-weight: bold;
+					}
+				}
+				.role {
+					margin-bottom: 20px;
+
+					.base-role {
+						font-weight: bold;
+						line-height: 10px;
+						font-size: 16px;
+					}
+
+					.company {
+						font-weight: bold;
+						line-height: 10px;
+						font-size: 16px;
+						color: $white;
 					}
 				}
 				.devider {

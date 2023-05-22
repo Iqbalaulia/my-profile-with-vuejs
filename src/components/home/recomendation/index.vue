@@ -14,33 +14,55 @@
 			</div>
 
 			<div class="recomendation__content">
-				<VueSlickCarousel :arrows="true" :dots="true">
-					<div class="content_slider">
+				<VueSlickCarousel v-bind="setting">
+					<div
+						class="content_slider"
+						v-for="(recomendation, indexRecomendation) in data"
+						:key="indexRecomendation">
 						<div class="profile_images">
 							<img
-								src="https://media.licdn.com/dms/image/D5603AQElrV9h0l8j3g/profile-displayphoto-shrink_200_200/0/1668169627705?e=1689811200&v=beta&t=ZqqugRj20x-QPP3_03OaOdYWjuHHonG26ewVlrEGaGE"
-								alt="" />
+								:src="recomendation.path_url"
+								:alt="recomendation.name"
+								v-once />
 						</div>
 						<div class="information">
 							<label for=""
-								><span>Recomendation</span> From Firman Zain Firdauz</label
+								><span>Recomendation</span> From {{ recomendation.name }}</label
+							>
+							<div class="role"
+								><span class="base-role">{{ recomendation.role }}</span> at
+								<span class="company">{{ recomendation.company }}</span></div
 							>
 							<div class="devider mb-4"></div>
-							<p
-								>Pekerjaan bagus, deadline terbantu, task terselesaikan.
-								Frontend developer mantap 👍🏻</p
-							>
-							<a href="" class="btn btn-sm btn-primary"> LinkedIn </a>
+							<p>{{ recomendation.quote }}</p>
+							<router-link
+								:to="recomendation.linkedin"
+								class="btn btn-sm btn-primary-profile">
+								LinkedIn
+							</router-link>
 						</div>
 					</div>
-					<div class="content_slider">2</div>
-					<div class="content_slider">3</div>
-					<div class="content_slider">4</div>
 				</VueSlickCarousel>
 			</div>
 		</div>
 	</div>
 </template>
 <script>
-export default {};
+import jsonRecomendation from "./data/recomendation.json";
+export default {
+	data() {
+		return {
+			data: jsonRecomendation.data.data,
+			setting: {
+				arrows: true,
+				dots: true,
+				fade: true,
+				infinite: true,
+				lazyLoad: "progressive",
+				autoplay: true,
+				autoplaySpeed: 1000,
+			},
+		};
+	},
+};
 </script>
