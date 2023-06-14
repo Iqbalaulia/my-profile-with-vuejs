@@ -7,6 +7,7 @@
 			<Me />
 			<Experiences />
 			<Recomendation />
+			<MyProject />
 		</div>
 	</Layout>
 </template>
@@ -23,6 +24,7 @@ export default {
 		Me: () => import("@/components/home/me"),
 		Experiences: () => import("@/components/home/experiences"),
 		Recomendation: () => import("@/components/home/recomendation"),
+		MyProject: () => import("@/components/home/project"),
 		// SectionJourney: () => import("@/components/Journey"),
 		// SectionMe: () => import("@/components/Me"),
 		// SectionWorking: () => import("@/components/Working"),
