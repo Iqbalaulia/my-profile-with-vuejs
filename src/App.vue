@@ -2,6 +2,7 @@
   <div id="app">
     <transition>
       <router-view />
+      <!-- testing -->
     </transition>
   </div>
 </template>
