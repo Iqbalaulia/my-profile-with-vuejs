@@ -10,7 +10,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2023 Copyright:
-    <a class="text-white" href="https://iqbalaulia.netlify.app/">Muhammad iqbal aMDBootstrap.comulia rafi | v.0.1</a>
+    <a class="text-white" href="https://iqbalaulia.netlify.app/">Muhammad iqbal aulia rafi | v.0.1</a>
   </div>
   <!-- Copyright -->
 </footer>

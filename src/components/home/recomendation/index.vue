@@ -19,12 +19,12 @@
 						class="content_slider"
 						v-for="(recomendation, indexRecomendation) in data"
 						:key="indexRecomendation">
-						<!-- <div class="profile_images">
+						<div class="profile_images">
 							<img
 								:src="recomendation.path_url"
 								:alt="recomendation.name"
 								v-once />
-						</div> -->
+						</div>
 						<div class="information">
 							<label for=""
 								><span>Recomendation</span> From {{ recomendation.name }}</label

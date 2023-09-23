@@ -28,7 +28,7 @@
 
 	&__content {
 		.content_slider {
-			// display: flex !important;
+			display: flex !important;
 			align-items: center;
 			gap: 80px;
 			.profile_images {
@@ -81,6 +81,9 @@
 					font-weight: 400;
 				}
 			}
+		}
+		.slick-arrow{
+			display: none !important;
 		}
 	}
 }
