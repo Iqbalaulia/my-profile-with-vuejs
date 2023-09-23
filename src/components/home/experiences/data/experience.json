@@ -1,0 +1,54 @@
+{
+    "data":{
+        "data":[
+            {
+                "section": "right",
+                "start_date": "Aug 2023",
+                "end_date": "",
+                "position":"Frontend Web Developer",
+                "company":"PT.Pegadaian",
+                "information_company":"As a state-owned enterprise, Pegadaian has a long history which began in the 18th century when Vereenigde Oost Indische Companies (VOC), established Bank Van Leening, a credit institution extending on pawning system. Then the Dutch government issued Staadsblad no 131 dated 12th March 1901 that principally govern that establishment of pawnshop was monopolized and only government runs such business. In accordance with this law, the first state pawn shop was established in Sukabumi (West Java) on 1st April 1901.Thus, each 1st April is the anniversary of Pegadaian. Now, Pegadaian has transformed as a business entity which not only gives loans based on pawn but also other profitable business."
+            },
+            {
+                "section": "",
+                "start_date": "Sep 2021",
+                "end_date": "Jul 2023",
+                "position":"Frontend Web Developer",
+                "company":"PT Sinergi Informatika Semen Indonesia (SISI)",
+                "information_company":"The company offers a wide range of IT services, including infrastructure management, application development and maintenance, system integration, database administration, IT security, and business intelligence. These services help Semen Indonesia to improve its efficiency, productivity, and customer satisfaction."
+            },
+            {
+                "section": "right",
+                "start_date": "Sep 2022",
+                "end_date": "Mei 2023",
+                "position":"Frontend Web Developer",
+                "company":"GoCement",
+                "information_company":"The leading B2B marketplace for building materials in Indonesia, providing building materials for various construction needs and digitizing the building materials store. Currently, many building stores in East Java have joined as GoCement partners."
+            },
+            {
+                "section": "",
+                "start_date": "Okt 2020",
+                "end_date": "Sep 2022",
+                "position":"Frontend Web Developer",
+                "company":"PT Onklas Prima Indonesia",
+                "information_company":"Onklas is the #1 Learning System, Social Media, and School Examination platform in Indonesia. Onklas supports educational growth and creates ease in learning, and has been trusted by various schools throughout Indonesia. Teachers can remain productive and creative while teaching through the online learning system, where assignments, materials, and exams can be done through the Onklas application and website."
+            },
+            {
+                "section": "right",
+                "start_date": "Jul 2019",
+                "end_date": "Feb 2020",
+                "position":"Fullstack Web Developer",
+                "company":"Peduly",
+                "information_company":"Peduly is a startup that operates in the field of humanitarianism. Peduly acts as a third party in the fundraising process, connecting campaign creators or those in need of funds with funders. Based on crowdfunding, it is located in Surabaya, East Java."
+            },
+            {
+                "section": "",
+                "start_date": "Aug 2019",
+                "end_date": "Nov 2019",
+                "position":"Frontend Web Developer",
+                "company":"SmartAircraft Aero",
+                "information_company":"SmartAircraft Aero is a company operating in the aviation industry, located in the area of Juanda Airport. The company provides a special internal web for all aviation needs of an airline."
+            }
+        ]
+    }
+}
