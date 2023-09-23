@@ -19,12 +19,12 @@
 						class="content_slider"
 						v-for="(recomendation, indexRecomendation) in data"
 						:key="indexRecomendation">
-						<div class="profile_images">
+						<!-- <div class="profile_images">
 							<img
 								:src="recomendation.path_url"
 								:alt="recomendation.name"
 								v-once />
-						</div>
+						</div> -->
 						<div class="information">
 							<label for=""
 								><span>Recomendation</span> From {{ recomendation.name }}</label
@@ -35,11 +35,12 @@
 							>
 							<div class="devider mb-4"></div>
 							<p>{{ recomendation.quote }}</p>
-							<router-link
-								:to="recomendation.linkedin"
+							<!-- <a
+								target="_blank"
+								:href="recomendation.linkedin"
 								class="btn btn-sm btn-primary-profile">
 								LinkedIn
-							</router-link>
+							</a> -->
 						</div>
 					</div>
 				</VueSlickCarousel>
@@ -60,7 +61,7 @@ export default {
 				infinite: true,
 				lazyLoad: "progressive",
 				autoplay: true,
-				autoplaySpeed: 1000,
+				autoplaySpeed: 10000,
 			},
 		};
 	},
