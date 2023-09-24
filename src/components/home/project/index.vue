@@ -22,7 +22,7 @@
 								</label>
 							</div>
 						</div>
-						<div class="projects__tabs">
+						<!-- <div class="projects__tabs">
 							<div
 								@click="changeProjectTab('new')"
 								:class="tabsProject === `new` ? `tabs_active` : ``"
@@ -41,11 +41,12 @@
 								class="tabs_projects"
 								>All</div
 							>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
-			<div v-if="tabsProject === `new`" class="projects__showing">
+			<coming-soon/>
+			<!-- <div v-if="tabsProject === `new`" class="projects__showing">
 				<div class="row">
 					<div class="col-md-4">
 						<div class="images">
@@ -146,7 +147,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </template>
@@ -157,6 +158,9 @@ export default {
 		return {
 			tabsProject: "new",
 		};
+	},
+	components:{
+		ComingSoon: () => import('@/components/package/coming-soon')
 	},
 	methods: {
 		changeProjectTab(payload) {

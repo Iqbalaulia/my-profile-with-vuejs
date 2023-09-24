@@ -1,7 +1,7 @@
 <!-- @format -->
 
 <template>
-	<div class="experience">
+	<div class="experience" ref="experience">
 		<div class="container">
 			<div class="title">
 				<label for=""> My Experience</label>

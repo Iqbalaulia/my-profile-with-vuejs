@@ -5,7 +5,7 @@
 		<div>
 			<SectionDescribe />
 			<Me />
-			<Experiences />
+			<Experiences/>
 			<Recomendation />
 			<MyProject />
 		</div>
@@ -29,5 +29,9 @@ export default {
 		// SectionMe: () => import("@/components/Me"),
 		// SectionWorking: () => import("@/components/Working"),
 	},
+
+	methods: {
+		
+	}
 };
 </script>

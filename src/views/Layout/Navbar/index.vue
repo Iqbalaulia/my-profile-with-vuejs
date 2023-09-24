@@ -18,8 +18,9 @@
 					<!-- Right aligned nav items -->
 					<b-navbar-nav class="text-center">
 						<b-nav-item class="nav-item-active" href="#">Home</b-nav-item>
-						<b-nav-item href="#">Journey</b-nav-item>
-						<b-nav-item href="#">Work</b-nav-item>
+						<b-nav-item href="#">Experience</b-nav-item>
+						<b-nav-item href="#">Recomendation</b-nav-item>
+						<b-nav-item href="#">Project</b-nav-item>
 						<b-nav-item href="#">Photography</b-nav-item>
 						<b-nav-item href="#">Journal</b-nav-item>
 					</b-navbar-nav>
@@ -28,3 +29,16 @@
 		</b-navbar>
 	</div>
 </template>
+<script>
+export default {
+	data(){
+		return{
+
+		}
+	},
+
+	methods: {
+		
+	}
+}
+</script>
