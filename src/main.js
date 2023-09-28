@@ -21,6 +21,7 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import "aos/dist/aos.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+import 'font-awesome/css/font-awesome.css';
 
 Vue.use(ElementUI, { locale });
 Vue.use(BootstrapVue);

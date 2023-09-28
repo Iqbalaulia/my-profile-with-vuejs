@@ -18,6 +18,7 @@
 			</div>
 
 			<Footer />
+			<ScrollTop />
 		</div>
 	</transition>
 </template>
@@ -41,6 +42,7 @@ export default {
 	components: {
 		Navbar: () => import("./Navbar"),
 		Footer: () => import("./Footer"),
+		ScrollTop: () => import('@/components/package/scroll-top')
 	},
 };
 </script>
