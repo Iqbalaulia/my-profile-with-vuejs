@@ -1,0 +1,87 @@
+/** @format */
+
+.photography {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	&__header {
+		display: flex;
+		justify-content: end;
+		align-items: center;
+	}
+
+	&__title {
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+		.title {
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			gap: 30px;
+			.devider {
+				border: 1px solid $primary;
+				width: 100px;
+			}
+			label {
+				margin-bottom: 0 !important;
+				font-size: 18px;
+				font-weight: bold;
+				color: $primary;
+			}
+		}
+
+		.name{
+			display: flex;
+			align-items: center;
+			justify-content: end;
+		}
+	}
+
+	
+	&__galery{
+		column-count: 4;
+
+		.galery-item{
+			break-inside: avoid;
+  			margin-bottom: 16px;
+
+			img{
+				width: 100%;
+				border-radius: 14px;
+			}
+		}
+
+		.image-200{
+			height: 200px;
+			img{
+				height: 200px;
+				object-fit: cover;
+			}
+		}
+
+		.image-250{
+			height: 250px;
+			img{
+				height: 250px;
+				object-fit: cover;
+			}
+		}
+
+		.image-300{
+			height: 300px;
+			img{
+				height: 300px;
+				object-fit: cover;
+			}
+		}
+
+		.image-350{
+			height: 350px;
+			img{
+				height: 350px;
+				object-fit: cover;
+			}
+		}
+	}
+}

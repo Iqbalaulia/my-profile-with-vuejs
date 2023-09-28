@@ -5,6 +5,7 @@
 		:experiencesId="`experience-section`" 
 		:recomendationId="`recomendation-section`"
 		:projectId="`project-section`"
+		:photographyId="`photography-section`"
 	>
 		<div>
 			<SectionDescribe />
@@ -12,6 +13,7 @@
 			<Experiences id="experience-section"/>
 			<Recomendation id="recomendation-section" />
 			<MyProject id="project-section" />
+			<Photography id="photography-section"/>
 		</div>
 	</Layout>
 </template>
@@ -29,6 +31,7 @@ export default {
 		Experiences: () => import("@/components/home/experiences"),
 		Recomendation: () => import("@/components/home/recomendation"),
 		MyProject: () => import("@/components/home/project"),
+		Photography: () => import('@/components/home/photography'),
 		// SectionJourney: () => import("@/components/Journey"),
 		// SectionWorking: () => import("@/components/Working"),
 	},
