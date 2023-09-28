@@ -4,7 +4,13 @@
 	<transition>
 		<div>
 			<!-- Navbar -->
-			<Navbar />
+			<Navbar 
+				:experiencesId="experiencesId" 
+				:recomendationId="recomendationId"
+				:projectId="projectId"
+				:photographyId="photographyId"
+				:journalId="journalId"
+			/>
 
 			<!-- Content -->
 			<div>
@@ -19,6 +25,19 @@
 <script>
 export default {
 	name: "Layout",
+	props:{
+		experiencesId:{
+			type: String,
+		},recomendationId:{
+			type: String,
+		},projectId:{
+			type: String,
+		},photographyId:{
+			type: String,
+		},journalId:{
+			type: String,
+		},
+	},
 	components: {
 		Navbar: () => import("./Navbar"),
 		Footer: () => import("./Footer"),

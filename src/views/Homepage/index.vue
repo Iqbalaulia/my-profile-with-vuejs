@@ -1,13 +1,17 @@
 <!-- @format -->
 
 <template>
-	<Layout>
+	<Layout 
+		:experiencesId="`experience-section`" 
+		:recomendationId="`recomendation-section`"
+		:projectId="`project-section`"
+	>
 		<div>
 			<SectionDescribe />
 			<Me />
-			<Experiences/>
-			<Recomendation />
-			<MyProject />
+			<Experiences id="experience-section"/>
+			<Recomendation id="recomendation-section" />
+			<MyProject id="project-section" />
 		</div>
 	</Layout>
 </template>
@@ -26,7 +30,6 @@ export default {
 		Recomendation: () => import("@/components/home/recomendation"),
 		MyProject: () => import("@/components/home/project"),
 		// SectionJourney: () => import("@/components/Journey"),
-		// SectionMe: () => import("@/components/Me"),
 		// SectionWorking: () => import("@/components/Working"),
 	},
 

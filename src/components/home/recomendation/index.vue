@@ -1,8 +1,8 @@
 <!-- @format -->
 
 <template>
-	<div class="recomendation">
-		<div class="container">
+	<div class="recomendation" >
+		<div class="container" data-aos="fade-up" data-aos-duration="1500">
 			<div class="recomendation__title">
 				<div class="title">
 					<div class="devider"></div>

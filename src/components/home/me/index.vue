@@ -1,7 +1,7 @@
 <!-- @format -->
 
 <template>
-	<div class="home-me" data-aos="fade-up" data-aos-duration="500">
+	<div class="home-me" data-aos="fade-up" data-aos-duration="1000">
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-6">

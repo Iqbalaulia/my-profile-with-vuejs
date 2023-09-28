@@ -11,8 +11,8 @@
 				<h4>Frontend Engineer</h4>
 			</div>
 
-			<div class="timeline" v-for="(experience, indexExperience) in data" :key="indexExperience">
-				<div class="timeline-item">
+			<div class="timeline" v-for="(experience, indexExperience) in data" :key="indexExperience" >
+				<div class="timeline-item" data-aos="fade-up" :data-aos-duration="indexExperience + 1000">
 					<div class="timeline-icon"> </div>
 					<div class="timeline-content" :class="experience.section">
 						<p class="timeline-content-date">{{experience.start_date}} - {{experience.end_date ? experience.end_date : `Now`}}</p>
