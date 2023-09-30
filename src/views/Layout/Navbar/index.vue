@@ -15,7 +15,7 @@
 
 				<b-collapse id="nav-collapse" is-nav>
 					<b-navbar-nav class="text-center">
-						<b-nav-item class="" href="#">Home</b-nav-item>
+						<b-nav-item class="" href="/">Home</b-nav-item>
 						<b-nav-item :class="active === `experience` ? `nav-item-active` : ``" @click="sectionToGo('experience')" href="#">Experience</b-nav-item>
 						<b-nav-item :class="active === `recomendation` ? `nav-item-active` : ``" @click="sectionToGo('recomendation')" href="#">Recomendation</b-nav-item>
 						<b-nav-item :class="active === `project` ? `nav-item-active` : ``" @click="sectionToGo('project')" href="#">Project</b-nav-item>

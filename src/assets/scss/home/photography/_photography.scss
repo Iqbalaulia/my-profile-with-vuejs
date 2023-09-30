@@ -3,6 +3,7 @@
 .photography {
 	padding-top: 60px;
 	padding-bottom: 60px;
+	background-color: $white;
 
 	&__header {
 		display: flex;
@@ -36,6 +37,25 @@
 			align-items: center;
 			justify-content: end;
 		}
+
+		.all-photo{
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			
+			label {
+				font-size: 18px;
+				font-weight: bold;
+				color: $primary;
+				cursor: pointer;
+
+				&:hover{
+					color: $gray-900;
+				}
+			}
+
+			
+		}
 	}
 
 	
@@ -45,39 +65,43 @@
 		.galery-item{
 			break-inside: avoid;
   			margin-bottom: 16px;
-
+			border: 1px solid $primary;
+			border-radius: 14px;
+			padding: 8px;
+			&:hover img {
+				filter: grayscale(0);
+			}
+			
 			img{
 				width: 100%;
 				border-radius: 14px;
+				filter: grayscale(100%);
+				cursor: pointer;
 			}
 		}
 
-		.image-200{
-			height: 200px;
+		.image-1{
 			img{
 				height: 200px;
 				object-fit: cover;
 			}
 		}
 
-		.image-250{
-			height: 250px;
+		.image-2{
 			img{
 				height: 250px;
 				object-fit: cover;
 			}
 		}
 
-		.image-300{
-			height: 300px;
+		.image-3{
 			img{
 				height: 300px;
 				object-fit: cover;
 			}
 		}
 
-		.image-350{
-			height: 350px;
+		.image-4{
 			img{
 				height: 350px;
 				object-fit: cover;

@@ -29,6 +29,26 @@ const routes = [
 			],
 		},
 	},
+	{
+		path:'/photography',
+		name: "Photography",
+		component: () => import(/* webpackChunkName: "Photography" */ "../views/Photography"),
+		metaInfo: {
+			title: "Default App Title",
+			titleTemplate: "%s | vue-meta Example App",
+			htmlAttrs: {
+				lang: "en-US",
+			},
+			meta: [
+				{ charset: "utf-8" },
+				{
+					name: "description",
+					content: "An example Vue application with vue-meta.",
+				},
+				{ name: "viewport", content: "width=device-width, initial-scale=1" },
+			],
+		},
+	}
 ];
 
 const router = new VueRouter({
