@@ -21,7 +21,9 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import "aos/dist/aos.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
-import 'font-awesome/css/font-awesome.css';
+import "font-awesome/css/font-awesome.css";
+
+import "./utils/components";
 
 Vue.use(ElementUI, { locale });
 Vue.use(BootstrapVue);
@@ -30,10 +32,10 @@ Vue.config.productionTip = false;
 Vue.component(VueSlickCarousel.name, VueSlickCarousel);
 
 new Vue({
-	render: (h) => h(App),
-	router,
-	store,
-	mounted() {
-		AOS.init();
-	},
+  render: (h) => h(App),
+  router,
+  store,
+  mounted() {
+    AOS.init();
+  },
 }).$mount("#app");

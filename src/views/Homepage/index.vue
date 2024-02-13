@@ -1,19 +1,19 @@
 <!-- @format -->
 
 <template>
-	<Layout 
+	<layout 
 		:experiencesId="`experience-section`" 
 		:recomendationId="`recomendation-section`"
 		:projectId="`project-section`"
 	>
 		<div>
-			<SectionDescribe />
-			<Me />
-			<Experiences id="experience-section"/>
-			<Recomendation id="recomendation-section" />
-			<MyProject id="project-section" />
+			<component-describe />
+			<component-me/>
+			<component-experience id="experience-section"/>
+			<component-recomendation id="recomendation-section" />
+			<component-my-project id="project-section" />
 		</div>
-	</Layout>
+	</layout>
 </template>
 <script>
 export default {
@@ -23,13 +23,6 @@ export default {
 		titleTemplate: "%s | Frontend Engineer",
 	},
 	components: {
-		Layout: () => import("@/views/Layout"),
-		SectionDescribe: () => import("@/components/home/describe"),
-		Me: () => import("@/components/home/me"),
-		Experiences: () => import("@/components/home/experiences"),
-		Recomendation: () => import("@/components/home/recomendation"),
-		MyProject: () => import("@/components/home/project"),
-		// SectionJourney: () => import("@/components/Journey"),
 		// SectionWorking: () => import("@/components/Working"),
 	},
 
