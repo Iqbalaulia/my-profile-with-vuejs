@@ -1,34 +1,296 @@
 {
-  "project": {
-    "artect": {
-      "landing_page": [
-        {
-          "images": "",
-          "title_project": "",
-          "company": ""
-        },
-        {
-          "images": "",
-          "title_project": "",
-          "company": ""
-        },
-        {
-          "images": "",
-          "title_project": "",
-          "company": ""
-        },
-        {
-          "images": "",
-          "title_project": "",
-          "company": ""
-        },
-        {
-          "images": "",
-          "title_project": "",
-          "company": ""
-        }
-      ],
-      "cms": []
+  "project_new": [
+    {
+      "id":"NEW1",
+      "thumbnail": "sisi/CRM/crm_1.png",
+      "title_project": "Akses TOKO CRM",
+      "company": "PT. Sinergi Informatika Semen Indonesia"
+    },
+    {
+      "id":"NEW2",
+      "thumbnail": "outfit/hey-outfit.png",
+      "title_project": "Hey Outfit",
+      "company": "Freelance"
+    },
+    {
+      "id":"NEW3",
+      "thumbnail": "nomads/nomads.png",
+      "title_project": "Nomaden Traveling",
+      "company": "Freelance"
+    },
+    {
+      "id":"NEW4",
+      "thumbnail": "explore/landing-page_1.png",
+      "title_project": "Template Landing Page",
+      "company": "Freelance"
+    },
+    {
+      "id":"NEW5",
+      "thumbnail": "gocement/Marketplace/marketplace-landing-page.png",
+      "title_project": "E-Commerce Gocementt",
+      "company": "Gocement"
+    },
+    {
+      "id":"NEW6",
+      "thumbnail": "gocement/Console/console-1.png",
+      "title_project": "CMS Gocementt",
+      "company": "Gocement"
     }
-  }
+  ],
+  "latest": [
+    {
+      "id":"LATEST1",
+      "thumbnail": "klikchat/KLIK-Chat-Web.png",
+      "title_project": "Chat Web",
+      "company": "KLIKCHAT"
+    },
+    {
+      "id":"LATEST2",
+      "thumbnail": "klikchat/KLIK-Chat-Business.png",
+      "title_project": "Web Business",
+      "company": "KLIKCHAT"
+    },
+    {
+      "id":"LATEST3",
+      "thumbnail": "abk/abk-istimewa_1.png",
+      "title_project": "ABK istimewa",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST4",
+      "thumbnail": "artect/CMS/cms-2.png",
+      "title_project": "CMS Dealin",
+      "company": "Artect"
+    },
+    {
+      "id":"LATEST4",
+      "thumbnail": "artect/LandingPage/landing-page_1.png",
+      "title_project": "Landing Page Dealin",
+      "company": "Artect"
+    },
+    {
+      "id":"LATEST5",
+      "thumbnail": "blog/landing-page.png",
+      "title_project": "My Blog",
+      "company": "Artect"
+    },
+    {
+      "id":"LATEST6",
+      "thumbnail": "jasaraharja/JASARAHARJA-GM.png",
+      "title_project": "CMS Jasaraharja Polis",
+      "company": "PT. Jasaraharja Putra"
+    },
+    {
+      "id":"LATEST7",
+      "thumbnail": "kisahKlasik/kisah-klasik_2.png",
+      "title_project": "Kisah Klasik",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "memfis/MeMFIS_customer.png",
+      "title_project": "MeMFIS",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/CMSGoverment/cms-gov_1.png",
+      "title_project": "CMS Government",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Klassign/klassign_2.png",
+      "title_project": "Klassign",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/LandingPage/landing-page_1.png",
+      "title_project": "Landing Page ONKLAS",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Monitoring/cms-monitoring_2.png",
+      "title_project": "CMS Monitoring",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Sekolah/cms-sekolah_1.png",
+      "title_project": "CMS Sekolah",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Theme/web-onklas_temp1.png",
+      "title_project": "Template Web Sekolah",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Theme/web-onklas_temp7.png",
+      "title_project": "Template Web Sekolah",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "peduly/CMS/Halaman Dashboard Penarikan Donasi Admin.png",
+      "title_project": "CMS Peduly Crowdfunding",
+      "company": "Peduly"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "peduly/LandingPage/Halaman Detail Campaign Bagian Laporan Perkembangan Campaign.png",
+      "title_project": "Peduly Crowdfunding",
+      "company": "Peduly"
+    }
+  ],
+  "all":[
+    {
+      "id":"NEW1",
+      "thumbnail": "sisi/CRM/crm_1.png",
+      "title_project": "Akses TOKO CRM",
+      "company": "PT. Sinergi Informatika Semen Indonesia"
+    },
+    {
+      "id":"NEW2",
+      "thumbnail": "outfit/hey-outfit.png",
+      "title_project": "Hey Outfit",
+      "company": "Freelance"
+    },
+    {
+      "id":"NEW3",
+      "thumbnail": "nomads/nomads.png",
+      "title_project": "Nomaden Traveling",
+      "company": "Freelance"
+    },
+    {
+      "id":"NEW4",
+      "thumbnail": "explore/landing-page_1.png",
+      "title_project": "Template Landing Page",
+      "company": "Freelance"
+    },
+    {
+      "id":"NEW5",
+      "thumbnail": "gocement/Marketplace/marketplace-landing-page.png",
+      "title_project": "E-Commerce Gocementt",
+      "company": "Gocement"
+    },
+    {
+      "id":"NEW6",
+      "thumbnail": "gocement/Console/console-1.png",
+      "title_project": "CMS Gocementt",
+      "company": "Gocement"
+    },
+    {
+      "id":"LATEST1",
+      "thumbnail": "klikchat/KLIK-Chat-Web.png",
+      "title_project": "Chat Web",
+      "company": "KLIKCHAT"
+    },
+    {
+      "id":"LATEST2",
+      "thumbnail": "klikchat/KLIK-Chat-Business.png",
+      "title_project": "Web Business",
+      "company": "KLIKCHAT"
+    },
+    {
+      "id":"LATEST3",
+      "thumbnail": "abk/abk-istimewa_1.png",
+      "title_project": "ABK istimewa",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST4",
+      "thumbnail": "artect/CMS/cms-2.png",
+      "title_project": "CMS Dealin",
+      "company": "Artect"
+    },
+    {
+      "id":"LATEST4",
+      "thumbnail": "artect/LandingPage/landing-page_1.png",
+      "title_project": "Landing Page Dealin",
+      "company": "Artect"
+    },
+    {
+      "id":"LATEST5",
+      "thumbnail": "blog/landing-page.png",
+      "title_project": "My Blog",
+      "company": "Artect"
+    },
+    {
+      "id":"LATEST6",
+      "thumbnail": "jasaraharja/JASARAHARJA-GM.png",
+      "title_project": "CMS Jasaraharja Polis",
+      "company": "PT. Jasaraharja Putra"
+    },
+    {
+      "id":"LATEST7",
+      "thumbnail": "kisahKlasik/kisah-klasik_2.png",
+      "title_project": "Kisah Klasik",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "memfis/MeMFIS_customer.png",
+      "title_project": "MeMFIS",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/CMSGoverment/cms-gov_1.png",
+      "title_project": "CMS Government",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Klassign/klassign_2.png",
+      "title_project": "Klassign",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/LandingPage/landing-page_1.png",
+      "title_project": "Landing Page ONKLAS",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Monitoring/cms-monitoring_2.png",
+      "title_project": "CMS Monitoring",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Sekolah/cms-sekolah_1.png",
+      "title_project": "CMS Sekolah",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Theme/web-onklas_temp1.png",
+      "title_project": "Template Web Sekolah",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "onklas/Theme/web-onklas_temp7.png",
+      "title_project": "Template Web Sekolah",
+      "company": "PT. ONKLAS PRIMA INDONESIA"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "peduly/CMS/Halaman Dashboard Penarikan Donasi Admin.png",
+      "title_project": "CMS Peduly Crowdfunding",
+      "company": "Peduly"
+    },
+    {
+      "id":"LATEST8",
+      "thumbnail": "peduly/LandingPage/Halaman Detail Campaign Bagian Laporan Perkembangan Campaign.png",
+      "title_project": "Peduly Crowdfunding",
+      "company": "Peduly"
+    }
+  ]
 }
